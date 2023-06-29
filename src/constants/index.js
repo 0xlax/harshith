@@ -1,4 +1,7 @@
 import {
+    terminal,
+    coinsensei,
+    website,
     golang,
     rust,
     mobile,
@@ -25,6 +28,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    aisum,
   } from "../assets";
   
   export const navLinks = [
@@ -193,67 +197,84 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Coin Tracker",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Real-time cryptocurrency tracking platform providing comprehensive data and analytics on coin prices, market trends, and portfolio management.",
       tags: [
         {
-          name: "react",
+          name: "ReactJS",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "API",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: coinsensei,
+      source_code_link: "https://github.com/0xlax/coinsensei",
     },
     {
-      name: "Job IT",
+      name: "This Website 😉",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A responsive website leveraging React.js and multiple libraries for enhanced functionality. Self-representitive",
       tags: [
         {
-          name: "react",
+          name: "ReactJS",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "emailJS",
           color: "pink-text-gradient",
         },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: website,
+      source_code_link: "https://github.com/0xlax/harshith",
     },
     {
-      name: "Trip Guide",
+      name: "AI Summariser [WIP]",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An AI summarizer website leveraging OpenAPI APIs, powered by React and styled with Tailwind CSS for a responsive and modern user interface. WIP",
       tags: [
         {
-          name: "nextjs",
+          name: "ReactJS",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "vite",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "RapiAPI",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: aisum,
+      source_code_link: "https://github.com/0xlax/aisum",
+    },
+    {
+      name: "The Terminal",
+      description:
+        "A comprehensive website showcasing cutting-edge research, insightful blogs, and innovative projects, featuring a diverse range of technologies including Golang, Rust, and other captivating technologies.",
+      tags: [
+        {
+          name: "Research",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: terminal,
+      source_code_link: "https://0xlax.github.io/",
     },
   ];
   

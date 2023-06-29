@@ -33,8 +33,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import coinsensei from "./coinsensei.png"
+import website from "./website.png"
+import aisum from "./aisum.png"
+import terminal from "./terminal.png"
 
 export {
+  terminal,
+  aisum,
   logobg,
   logow,
   logo,
@@ -67,4 +73,6 @@ export {
   tripguide,
   golang,
   rust,
+  coinsensei,
+  website
 };
